@@ -24,7 +24,7 @@ python owkin-submission-training.py \
     --train-tumor-alice data/BC-TCGA-Tumor_client.csv \
     --train-normal-bob data/BC-TCGA-Normal_server.csv \
     --train-tumor-bob data/BC-TCGA-Tumor_server.csv \
-    --epsilon 1 5 10 --delta 1e-5 1e-4 \
+    --epsilon 1 --delta 1e-5 1e-4 \
     --output-dir owkin-models --subprocess
 
 for file in owkin-models/*
